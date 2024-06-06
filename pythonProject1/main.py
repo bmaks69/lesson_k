@@ -1,21 +1,28 @@
+import summa
+
 print("Добрый вечер!")
 
 a='programs'
 print(len(a))
 
 # суммы и разница
-print(4+6,4-6)
+first, second = 8, 13
+summ = first + second
+diff = first - second
+print(summ, diff)
+
 
 #логическа
 print(bool(4+6 and 4-6))
 
 #Среде-арифметическое
-a,b,c = 11, 9, 7
-print((a+b+c)//3)
+first,second,third = 11, 9, 7
+mean = (first+second+third)/3
+print(mean)
 
 # Простые строчки
-a,b,c='Понедельник', 'Вторник', ', '
-print(a+c+b)
+first_string,second_string='Вторник', 'Понедельник'
+print(second_string +', '+ first_string)
 
 a, b, c = 4, 8, 6
 f = (a * b) + (a * c)
